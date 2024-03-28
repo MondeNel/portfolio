@@ -1,0 +1,17 @@
+.header {
+    background-color: white
+  }
+  
+  .title {
+    color: #fff;
+  }
+  
+  .navbar {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navbar li {
+    margin-right: 10px;
+  }
+  
