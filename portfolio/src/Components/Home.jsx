@@ -15,7 +15,11 @@ const Home = () => {
                 for my excellent communication skills, which facilitate effective communication.
             </p>
             <div>
-                <button className='text-white border-2 px-6 py-3 my-2 flex items-center'>View work <ArrowForwardIcon /></button>
+                <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-800 hover:border-blue-800'>View work 
+                    <span className='group-hover:rotate-90 duration-300'>
+                        <ArrowForwardIcon className='ml-3'/>
+                    </span>
+               </button>
             </div>
          </div>
 
