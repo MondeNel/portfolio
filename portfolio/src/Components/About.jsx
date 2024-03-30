@@ -19,7 +19,10 @@ const About = () => {
                     </div>
 
                     <div  className='text-1xl'>
-                        <p>I'm passionate about building excellent software that would improves the lives of those around.</p>
+                    <p>
+                        I'm a junior developer passionate about building excellent software that improves the lives of those around me. I enjoy tackling complex problems and crafting elegant solutions using the latest technologies. I'm eager to learn and grow as a developer, and I'm excited about the opportunity to contribute to innovative projects.
+                    </p>
+
                     </div>
                 </div>
 
