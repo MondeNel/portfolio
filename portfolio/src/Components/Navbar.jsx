@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import logo from '../assets/mbblogo.jpg'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Navbar = () => {
 
@@ -43,7 +44,16 @@ const Navbar = () => {
 
 
         {/* social icon */}
-        <div className='hidden'></div>
+        <div className='flex fixed flex-col top-[35%] left-0'>
+                <ul>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+                    <a className='flex justify-between items-center w-full text-gray-300'
+                    href="/">
+                        LinkedIn <LinkedInIcon size={30}/>
+                    </a>
+                    </li>
+                </ul> 
+        </div>
     </div>
   )
 }
