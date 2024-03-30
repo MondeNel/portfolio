@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import logo from '../assets/mbblogo.jpg'
 import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 const Navbar = () => {
 
@@ -26,7 +27,7 @@ const Navbar = () => {
 
         {/* Hamburger */}
             <div onClick={handleClick} className='md:hidden z-10'>
-                <MenuIcon />
+                {!nav ? <MenuIcon /> : <CloseIcon />}
             </div>
 
 
