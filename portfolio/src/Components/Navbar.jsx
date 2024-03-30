@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import logo from '../assets/mbblogo.jpg'
+import logo from '../assets/Logo.png'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -14,9 +14,9 @@ const Navbar = () => {
 
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#120c2c] text-gray-300'>
         <div>
-            <img src={logo} alt="logo-image" style={{width: '80px'}}/>
+            <img src={logo} alt="logo-image" style={{width: '60px'}}/>
         </div>
 
 
@@ -37,7 +37,7 @@ const Navbar = () => {
 
 
         {/* mobile menu */ }
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#000000] flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#120c2c] flex flex-col justify-center items-center'}>
                     <li className='py-6 text-4xl' >Home</li>
                     <li className='py-6 text-4xl' >About</li>
                     <li className='py-6 text-4xl' >Skills</li>
