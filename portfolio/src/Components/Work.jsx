@@ -1,5 +1,5 @@
 import React from 'react';
-import bookConnect from '../assets/Work/bookCoonect1.png'
+import bookConnect from '../assets/Work/bookCoonect_1.png'
 import quiz from '../assets/Work/quiz1.png'
 import movie from '../assets/Work/movie1.png'
 import weather from '../assets/Work/weather1.png'
@@ -18,8 +18,7 @@ const Work = () => {
 
 
                 {/* grid item 1 */}
-                <div style={{ backgroundImage: `url(${bookConnect})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
+                <div style={{ backgroundImage: `url(${bookConnect})`, backgroundSize: 'cover', backgroundPosition: 'center' }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover effect */}
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -28,17 +27,18 @@ const Work = () => {
                             </span>
 
                             <div className='pt-8 text-center'>
-                                <a href="/">
-                                </a>
+                                <a href="https://bookbrowser.netlify.app/" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-
-                                <a href="/">
+                                </a>
+                                <a href="https://github.com/MondeNel/Bookbrowser_application" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
+                            </div>
+
 
                             </div>
                         </div>
-                    </div>
+                 
 
                     {/* grid item 2 */}
                     <div style={{ backgroundImage: `url(${quiz})`, backgroundSize: 'cover', backgroundPosition: 'center' }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
@@ -50,15 +50,14 @@ const Work = () => {
                             </span>
 
                             <div className='pt-8 text-center'>
-                                <a href="/">
-                                </a>
+                                <a href="https://quizsimplify.netlify.app/" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-
-                                <a href="/">
+                                </a>
+                                <a href="https://github.com/MondeNel/Quiz_application" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
-
                             </div>
+
                         </div>
                     </div>
 
@@ -72,15 +71,13 @@ const Work = () => {
                                 </span>
 
                                 <div className='pt-8 text-center'>
-                                    <a href="/">
-                                    </a>
-                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-
-                                    <a href="/">
-                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                    </a>
-
-                                </div>
+                                <a href="https://Moonshoot3000.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="https://github.com/MondeNel/Moonshoot3000" target="_blank" rel="noopener noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
                             </div>
                         </div>
 
@@ -94,18 +91,15 @@ const Work = () => {
                                 </span>
 
                                 <div className='pt-8 text-center'>
-                                    <a href="/">
-                                    </a>
-                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-
-                                    <a href="/">
-                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                    </a>
-
-                                </div>
+                                <a href="https://checkanycityweather.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="https://github.com/MondeNel/Weather_Application" target="_blank" rel="noopener noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
                             </div>
                         </div>
-
             </div>
 
             

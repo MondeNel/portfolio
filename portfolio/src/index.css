@@ -16,9 +16,13 @@
 
 .content-div {
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 .content-div:hover {
@@ -28,4 +32,5 @@
         hsla(242, 74%, 61%, 0.8)
     )!important;
 }
+
 
