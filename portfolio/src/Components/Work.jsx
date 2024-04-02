@@ -17,7 +17,7 @@ const Work = () => {
             </div>
 
             {/* grid container */}
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4'>
 
                 {/* grid item 1 */}
                 <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div' style={{ backgroundImage: `url(${bookConnect})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', height: '280px' }}>
@@ -25,10 +25,10 @@ const Work = () => {
                         <span className='text-2xl font-bold text-white tracking-wider'>BookConnect Application</span>
                         <div className='pt-8 text-center'>
                             <a href="https://bookbrowser.netlify.app/" target="_blank" rel="noopener noreferrer">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-md'>Demo</button>
                             </a>
                             <a href="https://github.com/MondeNel/Bookbrowser_application" target="_blank" rel="noopener noreferrer">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-md'>Code</button>
                             </a>
                         </div>
                     </div>
@@ -46,10 +46,10 @@ const Work = () => {
 
                             <div className='pt-8 text-center'>
                                 <a href="https://quizsimplify.netlify.app/" target="_blank" rel="noopener noreferrer">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-md'>Demo</button>
                                 </a>
                                 <a href="https://github.com/MondeNel/Quiz_application" target="_blank" rel="noopener noreferrer">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-md'>Code</button>
                                 </a>
                             </div>
 
@@ -67,10 +67,10 @@ const Work = () => {
 
                                 <div className='pt-8 text-center'>
                                 <a href="https://Moonshoot3000.netlify.app/" target="_blank" rel="noopener noreferrer">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-md'>Demo</button>
                                 </a>
                                 <a href="https://github.com/MondeNel/Moonshoot3000" target="_blank" rel="noopener noreferrer">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-md'>Code</button>
                                 </a>
                             </div>
                             </div>
@@ -87,10 +87,10 @@ const Work = () => {
 
                                 <div className='pt-8 text-center'>
                                 <a href="https://checkanycityweather.netlify.app/" target="_blank" rel="noopener noreferrer">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-md'>Demo</button>
                                 </a>
                                 <a href="https://github.com/MondeNel/Weather_Application" target="_blank" rel="noopener noreferrer">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-md'>Code</button>
                                 </a>
                             </div>
                             </div>
