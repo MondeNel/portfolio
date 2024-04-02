@@ -6,6 +6,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import ArticleIcon from '@mui/icons-material/Article';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
 
@@ -22,10 +23,29 @@ const Navbar = () => {
 
         {/* Menu */}
             <ul className='hidden md:flex'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Contact</li>
+                <li>
+                    <Link to='home' smooth={true} duration={500}>
+                        Home
+                    </Link> 
+                </li>
+
+                <li>
+                    <Link to='about' smooth={true} duration={500}>
+                        About
+                    </Link> 
+                </li>
+                
+                <li>
+                    <Link to='skills' smooth={true} duration={500}>
+                        Skills
+                    </Link> 
+                </li>
+
+                <li>
+                    <Link to='contact' smooth={true} duration={500}>
+                        Contact
+                    </Link> 
+                </li>
             </ul>
  
 
