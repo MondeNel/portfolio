@@ -51,24 +51,24 @@ const Navbar = () => {
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                     <a className='flex justify-between items-center w-full text-white'
-                    href="/">
+                    href="https://www.linkedin.com/in/monde-nel-8a287815a/">
                         LinkedIn <LinkedInIcon size={30}/>
                     </a>
                     </li>
 
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                     <a className='flex justify-between items-center w-full text-white'
-                    href="/">
+                    href="https://github.com/MondeNel">
                         GitHub <GitHubIcon size={30}/>
                     </a>
                     </li>
 
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6de4ca]'>
-                    <a className='flex justify-between items-center w-full text-white'
-                    href="/">
-                        Email <EmailIcon size={30}/>
-                    </a>
+                        <a className='flex justify-between items-center w-full text-white' href="mailto:Mondenel1996@gmail.com">
+                            Email <EmailIcon size={30}/>
+                        </a>
                     </li>
+
 
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#5f5f5f]'>
                     <a className='flex justify-between items-center w-full text-white'
