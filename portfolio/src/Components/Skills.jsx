@@ -12,12 +12,12 @@ import figma from '../assets/figma.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='bg-[#120c2c] text-gray-300'>
+    <div name='skills' className='w-full h-screen bg-[#120c2c] text-gray-300'>
 
         {/* conatiner */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
-                <p className='text-4xl font-bold inline border-b-4 border-blue-800'>Experience</p>
+                <p className='text-4xl font-bold inline border-b-4 border-blue-800'>Skills</p>
                 <p className='py-4'>// Tech stack</p>
             </div>
 
