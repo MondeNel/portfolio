@@ -1,4 +1,8 @@
-import React from 'react'
+import React from 'react';
+import bookConnect from '../assets/Work/bookCoonect1.png'
+import quiz from '../assets/Work/quiz1.png'
+import movie from '../assets/Work/movie1.png'
+import weather from '../assets/Work/weather1.png'
 
 const Work = () => {
   return (
@@ -11,23 +15,97 @@ const Work = () => {
 
             {/* grid container */}
             <div className='grid sm:grid-col-2 md:grid-col-3 gap-4'>
-                <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* Hover effect */}
-                    <div>
-                        <span></span>
-                        <div>
-                            <a href="/">
-                                <button></button>
-                            </a>
 
-                            <a href="/">
-                                <button></button>
-                            </a>
 
+                {/* grid item 1 */}
+                <div style={{ backgroundImage: `url(${bookConnect})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+
+                        {/* Hover effect */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                BookConnect Application
+                            </span>
+
+                            <div className='pt-8 text-center'>
+                                <a href="/">
+                                </a>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+
+                            </div>
                         </div>
                     </div>
-                </div>
+
+                    {/* grid item 2 */}
+                    <div style={{ backgroundImage: `url(${quiz})`, backgroundSize: 'cover', backgroundPosition: 'center' }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                        {/* Hover effect */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Quiz Application
+                            </span>
+
+                            <div className='pt-8 text-center'>
+                                <a href="/">
+                                </a>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                      {/* grid item 3 */}
+                      <div style={{ backgroundImage: `url(${movie})`, backgroundSize: 'cover', backgroundPosition: 'center' }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                            {/* Hover effect */}
+                            <div className='opacity-0 group-hover:opacity-100'>
+                                <span className='text-2xl font-bold text-white tracking-wider'>
+                                    Movie/Podcast Application
+                                </span>
+
+                                <div className='pt-8 text-center'>
+                                    <a href="/">
+                                    </a>
+                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+
+                                    <a href="/">
+                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* grid item 4 */}
+                      <div style={{ backgroundImage: `url(${weather})`, backgroundSize: 'cover', backgroundPosition: 'center' }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                            {/* Hover effect */}
+                            <div className='opacity-0 group-hover:opacity-100'>
+                                <span className='text-2xl font-bold text-white tracking-wider'>
+                                    Weather Application
+                                </span>
+
+                                <div className='pt-8 text-center'>
+                                    <a href="/">
+                                    </a>
+                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+
+                                    <a href="/">
+                                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+
             </div>
 
             
