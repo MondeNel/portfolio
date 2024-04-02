@@ -6,7 +6,7 @@ import supabase from '../assets/supabase.png'
 import javascript from '../assets/javascript.png'
 import typescript from '../assets/typescript.png'
 import git from '../assets/git.png'
-import figma from '../assets/figma.png'
+import github from '../assets/github.png'
 
 
 
@@ -81,10 +81,10 @@ const Skills = () => {
             </div>
 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={figma} alt="html-icon" />
-                    <p className='my-4'>Figma</p>
+                    <img className='w-20 mx-auto' src={github} alt="html-icon" />
+                    <p className='my-4'>Github</p>
                     <div className="bg-gray-500 h-2 rounded-lg mt-2">
-                    <div className="bg-blue-800 h-full rounded-lg" style={{ width: '73%' }}></div>
+                    <div className="bg-blue-800 h-full rounded-lg" style={{ width: '88%' }}></div>
                 </div>
             </div>
 
